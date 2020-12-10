@@ -1,0 +1,111 @@
+
+.order-table {
+    position: relative
+}
+
+.order-table:after,
+.order-table:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 37px;
+    width: 10px;
+    background: #e8e9ef
+}
+
+.order-table:after {
+    right: -1px
+}
+
+.order-table:before {
+    left: -1px
+}
+
+.order-table tr th {
+    background: #e8e9ef
+}
+
+.order-table tr td:last-child,
+.order-table tr th:last-child {
+    text-align: right
+}
+
+.order-table tr:last-child td {
+    border: none
+}
+
+.order-table .badge {
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 400
+}
+
+.order-table .badge-complete {
+    background: #00c292
+}
+
+.order-table .badge-pending {
+    background: #fb9678
+}
+
+.order-table .badge-delete {
+    background: #FF0000
+}
+
+.order-table .badge-edit {
+    background: #33A2FF
+}
+
+.card {
+    margin-bottom: 1.875em;
+    border-radius: 5px;
+    padding: 0;
+    border: 0 solid transparent;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .08);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .08)
+}
+
+.table-stats table {
+    font-family: Montserrat;
+	
+}
+
+.table-stats table th,
+.table-stats table td {
+    border: none;
+    border-bottom: 1px solid #e8e9ef;
+    color: #868e96;
+    font-size: 12px;
+    font-weight: 400;
+    padding: .75em 1.25em;
+    text-transform: uppercase
+}
+
+.table-stats table th img,
+.table-stats table td img {
+    margin-right: 10px;
+    max-width: 45px
+}
+
+.table-stats table th .name,
+.table-stats table td .name {
+    color: #343a40;
+    font-size: 14px;
+    text-transform: capitalize
+}
+
+.table-stats table td {
+    color: #343a40;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    vertical-align: middle
+}
+
+.card .card-body {
+    float: left;
+    padding: 1.25em;
+    position: relative;
+    width: 100%
+}
